@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fonokeiner Telefonía Móvil- Carrito de compras</title>
+    <link rel="icon" type="image/jpg" href="./img/favicon_logo_Fonokeiner.jpg">
+
+    <!--CSS-->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!--Sweet Alert 2-->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <!--BOX ICONS-->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel="stylesheet">
+
+</head>
+<body>
+    <!--header-->
+    <header>
+        <!--nav-->
+        <div class="nav container header_div">
+            <a href="index.html" class="logo"><img class="logoheader" src="./img/Logo_Fonokeiner.jpg" alt="Logo de Fonokeiner Telefonica"></a>
+            <!--ícono del carrito de compra, (lateral al logos)-->
+            <i class='bx bx-cart' id="cart-icon"></i>
+            <!--carrito de compras para los teléfonos-->
+            <div class="cart">
+                <h2 class="cart-title">Mi Carrito</h2>
+                <!--Contenido del carrito-->
+                <div class="cart-content">
+                </div>
+                <!--Total de costo-->
+                <div class="total">
+                    <div class="total-tittle">Total</div>
+                    <div class="total-price">$0</div>
+                </div>
+                <!--Boton para comprar telefonos-->
+                <button type="button" class="btn-buy">Comprar</button>
+                <!--Cierre de carrito-->
+                <i class='bx bx-x' id="close-cart"></i>
+            </div>
+        </div>
+    </header>
+
+    <section class="shop container">
+        <h2 class="section-title">Teléfonos</h2>
+        <div class="shop-content" id="shop-content"></div>
+        
+    </section>
+
+    <!--JAVA SCRIPT-->
+    <script src="./js/mainscript.js"></script>
+</body>
+<footer class="pie-pagina">
+    <div class="grupo-1">
+        <div class="box">
+            <figure>
+                <a href="index.html">
+                    <h2>Fonokeiner Telefonía</h2>
+                </a>
+            </figure>
+        </div>
+        <div class="box">
+            <h3>SOBRE NOSOTROS</h3>
+            <p>Somos una empresa con más de 12 años en el rubro de la telefonía e instalaciones de servicios de banda ancha.<br>¡Nos encantaría tenerte abordo en cualquier de nuestros planes!</p>
+        </div>
+        <div class="box">
+            <h4>SIGUENOS</h4>
+            <div class="red-social">
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-instagram'></i></a>
+            </div>
+        </div>
+    </div>
+
+        <small>&copy; 2022 <b>Fonokeiner Telefonía</b> - Todos los derechos reservados </small>
+    </div>
+</footer>
+</html>

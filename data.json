@@ -1,0 +1,58 @@
+[
+    {
+        "id":101,
+        "name": "Poco x3 Pro",
+        "price": "20000",
+        "description": "Poco x3 Pro, móvil de Xiaomi.",
+        "image": "img/pocox3_pro.jpg" 
+    },
+    {
+        "id":102,
+        "name": "Redmi note 9",
+        "price": "14000",
+        "description": "Redmi note 9, móvil de Xiaomi.",
+        "image": "img/redmi_note_9.jpg"
+    },
+    {
+        "id":103,
+        "name": "iPhone 13",
+        "price": "30000",
+        "description": "iPhone 13, móvil de Apple.",
+        "image": "img/iphone_13.jpg"
+    },
+    {
+        "id":104,
+        "name": "iPhone 14",
+        "price": "40000",
+        "description": "iPhone 14, móvil de Apple.",
+        "image": "img/iphone_14.jpg"
+    },
+    {
+        "id":105,
+        "name": "Nova 9 Pro",
+        "price": "19500",
+        "description": "Nova 9 pro, móvil de Huawei.",
+        "image": "img/huawei_nova9.jpg"
+    },
+    {
+        "id":106,
+        "name": "Nova y70",
+        "price": "15200",
+        "description": "Nova y70, móvil de Huawei.",
+        "image": "img/huawei_novay70.jpg"
+    },
+    {
+        "id":107,
+        "name": "P20 Pro",
+        "price": "32500",
+        "description": "P20 Pro, un móvil de Huawei4.",
+        "image": "img/huawei_p20.jpg"
+    },
+    {
+        "id":108,
+        "name": "Galaxy m12",
+        "price": "12000",
+        "description": "Galaxy m12, un móvil de Samsung.",
+        "image": "img/samsung_galaxy_m12.jpg"
+    }
+ ]
